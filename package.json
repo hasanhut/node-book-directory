@@ -1,0 +1,20 @@
+{
+    "name": "nodejs-book-directory",
+    "version": "1.0.0",
+    "description": "Book Directory with Express",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "author": "Hasan Hut",
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "mongoose": "^6.0.12"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.14"
+    }
+}
